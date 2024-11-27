@@ -5,7 +5,7 @@
   <title>Semester Week</title>
 </head>
 <body>
-  <p style="border: 2px dashed gray; padding: 10px; text-align: center; font-family: 'Tw Cen MT', sans-serif; font-size: 16pt;" <style="colour:#236fa1;">id="week-display"></p> 
+  <p style="border: solid gray; padding: 10px; text-align: center; font-family: 'Tw Cen MT', sans-serif; font-size: 16pt;" <style="colour:#236fa1;">id="week-display"></p> 
   <script> // [N.B: if you want to change how the box and text looks in terms of styling, do so in the line above]
 
     const semesterStartDate = new Date("2025-02-25T00:00:00+10:00"); // enter the start date of the Semester in AEDT or AEST
