@@ -66,9 +66,9 @@
 
     const getWeekName = (weekNumber) => { 
       if (weekNumber < 0) {
-        return "before Semester Two has started.";
+        return " before Semester Two has started.";
       } else if (weekNumber >= 18) {
-        return "after Semester Two has finished.";
+        return " after Semester Two has finished.";
       } else {
       switch (weekNumber) {
         case 1:
@@ -116,7 +116,7 @@
     const dayName = getDayName(dayNumber);
     const weekNumber = getWeekNumber(currentDate);
     const weekName = getWeekName(weekNumber);
-    document.getElementById("week-display").innerHTML = "Right now, it is"  + weekName; // [N.B: if you want to change the text preceding the counter, do so here]
+    document.getElementById("week-display").innerHTML = "Right now, it is" + weekName; // [N.B: if you want to change the text preceding the counter, do so here]
   </script>
 </body>
 </html>
